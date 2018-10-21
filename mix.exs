@@ -20,7 +20,7 @@ defmodule SeaTraders.Mixfile do
   def application do
     [
       mod: {SeaTraders.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :coherence]
     ]
   end
 
@@ -40,7 +40,9 @@ defmodule SeaTraders.Mixfile do
       {:phoenix_html, "~> 2.10"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
-      {:cowboy, "~> 1.0"}
+      {:cowboy, "~> 1.0"},
+      {:coherence, "~> 0.5"},
+      {:bcrypt_elixir, "~> 1.0"}
     ]
   end
 
@@ -54,7 +56,7 @@ defmodule SeaTraders.Mixfile do
     [
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
-      "test": ["ecto.create --quiet", "ecto.migrate", "test"]
+      test: ["ecto.create --quiet", "ecto.migrate", "test"]
     ]
   end
 end

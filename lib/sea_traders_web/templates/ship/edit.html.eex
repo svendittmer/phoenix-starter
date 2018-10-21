@@ -1,0 +1,5 @@
+<h2>Edit Ship</h2>
+
+<%= render "form.html", Map.put(assigns, :action, ship_path(@conn, :update, @ship)) %>
+
+<span><%= link "Back", to: ship_path(@conn, :index) %></span>

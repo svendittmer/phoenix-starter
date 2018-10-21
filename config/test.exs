@@ -17,3 +17,6 @@ config :sea_traders, SeaTraders.Repo,
   database: "sea_traders_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+# Speed up password hashing
+config :bcrypt_elixir, log_rounds: 4

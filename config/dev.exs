@@ -56,3 +56,6 @@ config :sea_traders, SeaTraders.Repo,
   database: "sea_traders_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :coherence, SeaTradersWeb.Coherence.Mailer,
+  adapter: Swoosh.Adapters.Local

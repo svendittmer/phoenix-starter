@@ -25,3 +25,21 @@ config :logger, :console,
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env}.exs"
+
+# %% Coherence Configuration %%
+config :coherence,
+  user_schema: SeaTraders.Coherence.User,
+  repo: SeaTraders.Repo,
+  module: SeaTraders,
+  web_module: SeaTradersWeb,
+  router: SeaTradersWeb.Router,
+  messages_backend: SeaTradersWeb.Coherence.Messages,
+  logged_out_url: "/",
+  registration_permitted_attributes: ["email","name","password","current_password","password_confirmation"],
+  invitation_permitted_attributes: ["name","email"],
+  password_reset_permitted_attributes: ["reset_password_token","password","password_confirmation"],
+  session_permitted_attributes: ["remember","email","password"],
+  email_from_name: "Sea Traders Game",
+  email_from_email: "sven.dittmer@gmx.net",
+  opts: [:authenticatable, :recoverable, :lockable, :unlockable_with_token, :confirmable, :registerable, :invitable]
+# %% End Coherence Configuration %%

@@ -1,0 +1,13 @@
+<h2>Show Ship</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @ship.name %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: ship_path(@conn, :edit, @ship) %></span>
+<span><%= link "Back", to: ship_path(@conn, :index) %></span>
