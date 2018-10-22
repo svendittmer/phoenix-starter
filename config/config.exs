@@ -43,3 +43,9 @@ config :coherence,
   email_from_email: "sven.dittmer@gmx.net",
   opts: [:authenticatable, :recoverable, :lockable, :unlockable_with_token, :confirmable, :registerable, :invitable]
 # %% End Coherence Configuration %%
+
+config :phoenix, :template_engines,
+  slim: PhoenixSlime.Engine,
+  slime: PhoenixSlime.Engine
+
+config :phoenix_slime, :use_slim_extension, true

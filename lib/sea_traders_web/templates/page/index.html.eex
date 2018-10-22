@@ -1,4 +1,0 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Sea Traders" %></h2>
-  <p class="lead">A productive web game that<br />does not compromise speed and maintainability.</p>
-</div>

@@ -1,0 +1,9 @@
+h2 Show Ship
+
+ul
+  li
+    strong Name:
+    = @ship.name
+
+span= link "Edit", to: ship_path(@conn, :edit, @ship)
+span= link "Back", to: ship_path(@conn, :index)

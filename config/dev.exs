@@ -37,7 +37,7 @@ config :sea_traders, SeaTradersWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/sea_traders_web/views/.*(ex)$},
-      ~r{lib/sea_traders_web/templates/.*(eex)$}
+      ~r{lib/sea_traders_web/templates/.*(eex|slim|slime)$}
     ]
   ]
 

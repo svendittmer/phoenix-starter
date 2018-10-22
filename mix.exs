@@ -42,7 +42,8 @@ defmodule SeaTraders.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:coherence, "~> 0.5"},
-      {:bcrypt_elixir, "~> 1.0"}
+      {:bcrypt_elixir, "~> 1.0"},
+      {:phoenix_slime, "~> 0.10.0"}
     ]
   end
 
