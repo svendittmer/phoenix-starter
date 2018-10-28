@@ -18,7 +18,9 @@ defmodule SeaTraders.Ships do
 
   """
   def list_ships do
-    Repo.all(Ship)
+    Ship
+    |> Repo.all()
+    |> Repo.preload(:anchorage)
   end
 
   @doc """
@@ -35,7 +37,11 @@ defmodule SeaTraders.Ships do
       ** (Ecto.NoResultsError)
 
   """
-  def get_ship!(id), do: Repo.get!(Ship, id)
+  def get_ship!(id) do
+    Ship
+    |> Repo.get!(id)
+    |> Repo.preload(:anchorage)
+  end
 
   @doc """
   Creates a ship.

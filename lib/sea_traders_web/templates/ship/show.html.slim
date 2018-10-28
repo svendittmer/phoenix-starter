@@ -4,6 +4,15 @@ ul
   li
     strong Name:
     = @ship.name
+  li
+    strong Departed at:
+    = @ship.departed_at
+  li
+    strong Estimated time of arrival:
+    = @ship.estimated_arrival_at
+  li
+    strong Anchorage:
+    = anchorage_name(@ship.anchorage)
 
 span= link "Edit", to: ship_path(@conn, :edit, @ship)
 span= link "Back", to: ship_path(@conn, :index)

@@ -47,6 +47,7 @@ defmodule SeaTradersWeb.Router do
   scope "/", SeaTradersWeb do
     pipe_through :protected
     # Add protected routes below
+    resources "/cities", CityController
     resources "/ships", ShipController
   end
 end

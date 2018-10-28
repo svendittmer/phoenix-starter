@@ -9,4 +9,19 @@
     = error_tag f, :name
 
   .form-group
+    = label f, :departed_at, class: "control-label"
+    = datetime_select f, :departed_at, class: "form-control"
+    = error_tag f, :departed_at
+
+  .form-group
+    = label f, :estimated_arrival_at, class: "control-label"
+    = datetime_select f, :estimated_arrival_at, class: "form-control"
+    = error_tag f, :estimated_arrival_at
+
+  .form-group
+    = label f, :anchorage_id, class: "control-label"
+    = select f, :anchorage_id, cities()
+    = error_tag f, :anchorage_id
+
+  .form-group
     = submit "Submit", class: "btn btn-primary"
