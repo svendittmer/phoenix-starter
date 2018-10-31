@@ -15,5 +15,18 @@ table.table
           span= link "Show", to: ship_path(@conn, :show, ship), class: "btn btn-default btn-xs"
           span= link "Edit", to: ship_path(@conn, :edit, ship), class: "btn btn-default btn-xs"
           span= link "Delete", to: ship_path(@conn, :delete, ship), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs"
+          
+          = form_for @changeset, @action, fn f ->
+            = if @changeset.action do
+              .alert.alert-danger
+                p Oops, something went wrong! Please check the errors below.
+
+            .form-group
+              = label f, :destination_id, class: "control-label"
+              = select f, :destination_id, cities()
+              = error_tag f, :destination_id
+
+            .form-group
+              = submit "Send", class: "btn btn-primary"
 
 <span><%= link "New Ship", to: ship_path(@conn, :new) %></span>
