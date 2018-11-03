@@ -40,7 +40,7 @@ defmodule SeaTraders.Ships do
   def get_ship!(id) do
     Ship
     |> Repo.get!(id)
-    |> Repo.preload(:anchorage)
+    |> Repo.preload([:anchorage, :destination])
   end
 
   @doc """
@@ -76,6 +76,15 @@ defmodule SeaTraders.Ships do
   def update_ship(%Ship{} = ship, attrs) do
     ship
     |> Ship.changeset(attrs)
+    |> Repo.update()
+  end
+
+  @doc """
+  Sends a ship to another city.
+  """
+  def send_ship_to_city(%Ship{} = ship, attrs) do
+    ship
+    |> Ship.send_to_city_changeset(attrs)
     |> Repo.update()
   end
 

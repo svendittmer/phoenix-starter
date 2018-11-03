@@ -9,6 +9,19 @@ defmodule SeaTradersWeb.ShipController do
     render(conn, "index.html", ships: ships)
   end
 
+  def send(conn, %{"id" => id, "ship" => ship_params}) do
+    ship = Ships.get_ship!(id)
+
+    case Ships.send_ship_to_city(ship, ship_params) do
+      {:ok, ship} ->
+        conn
+        |> put_flash(:info, "Ship sent to city.")
+        |> redirect(to: ship_path(conn, :show, ship))
+      {:error, %Ecto.Changeset{} = changeset} ->
+        render(conn, "show.html", ship: ship, changeset: changeset)
+    end
+  end
+
   def new(conn, _params) do
     changeset = Ships.change_ship(%Ship{})
     render(conn, "new.html", changeset: changeset)
@@ -27,7 +40,8 @@ defmodule SeaTradersWeb.ShipController do
 
   def show(conn, %{"id" => id}) do
     ship = Ships.get_ship!(id)
-    render(conn, "show.html", ship: ship)
+    changeset = Ships.change_ship(ship)
+    render(conn, "show.html", ship: ship, changeset: changeset)
   end
 
   def edit(conn, %{"id" => id}) do

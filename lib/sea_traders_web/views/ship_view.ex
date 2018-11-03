@@ -6,7 +6,7 @@ defmodule SeaTradersWeb.ShipView do
     |> Enum.map(fn city -> [value: city.id, key: city.name] end)
   end
 
-  def anchorage_name(city) do
+  def city_name(city) do
     if city do
       city.name
     else

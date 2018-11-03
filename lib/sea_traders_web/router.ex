@@ -49,5 +49,6 @@ defmodule SeaTradersWeb.Router do
     # Add protected routes below
     resources "/cities", CityController
     resources "/ships", ShipController
+    put "/ships/:id/send", ShipController, :send
   end
 end

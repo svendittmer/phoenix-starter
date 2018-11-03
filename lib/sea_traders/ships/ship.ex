@@ -19,4 +19,19 @@ defmodule SeaTraders.Ships.Ship do
     |> cast(attrs, [:name, :departed_at, :estimated_arrival_at, :anchorage_id])
     |> validate_required([:name])
   end
+
+  @doc false
+  def send_to_city_changeset(ship, attrs) do
+    ship
+    |> cast(attrs, [:destination_id])
+    |> validate_required([:destination_id])
+    |> put_change(:anchorage_id, nil)
+    |> put_change(:departed_at, NaiveDateTime.utc_now)
+    |> put_change(:estimated_arrival_at, estimated_time_of_arrival())
+  end
+
+  defp estimated_time_of_arrival do
+    NaiveDateTime.utc_now
+    |> NaiveDateTime.add(120)
+  end
 end

@@ -12,7 +12,23 @@ ul
     = @ship.estimated_arrival_at
   li
     strong Anchorage:
-    = anchorage_name(@ship.anchorage)
+    = city_name(@ship.anchorage)
+  li
+    strong Destination:
+    = city_name(@ship.destination)
 
 span= link "Edit", to: ship_path(@conn, :edit, @ship)
 span= link "Back", to: ship_path(@conn, :index)
+
+= form_for @changeset, ship_path(@conn, :send, @ship), fn f ->
+  = if @changeset.action do
+    .alert.alert-danger
+      p Oops, something went wrong! Please check the errors below.
+
+  .form-group
+    = label f, :destination_id, class: "control-label"
+    = select f, :destination_id, cities()
+    = error_tag f, :destination_id
+
+  .form-group
+    = submit "Send", class: "btn btn-primary"
