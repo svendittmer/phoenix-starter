@@ -1,9 +1,9 @@
-defmodule SeaTraders.Mixfile do
+defmodule MyApp.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :sea_traders,
+      app: :my_app,
       version: "0.0.1",
       elixir: "~> 1.4",
       elixirc_paths: elixirc_paths(Mix.env),
@@ -19,7 +19,7 @@ defmodule SeaTraders.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {SeaTraders.Application, []},
+      mod: {MyApp.Application, []},
       extra_applications: [:logger, :runtime_tools, :coherence]
     ]
   end

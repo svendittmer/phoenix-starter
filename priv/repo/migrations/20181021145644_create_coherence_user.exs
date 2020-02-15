@@ -1,4 +1,4 @@
-defmodule SeaTraders.Repo.Migrations.CreateCoherenceUser do
+defmodule MyApp.Repo.Migrations.CreateCoherenceUser do
   use Ecto.Migration
   def change do
     create table(:users) do

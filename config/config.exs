@@ -6,15 +6,15 @@
 use Mix.Config
 
 # General application configuration
-config :sea_traders,
-  ecto_repos: [SeaTraders.Repo]
+config :my_app,
+  ecto_repos: [MyApp.Repo]
 
 # Configures the endpoint
-config :sea_traders, SeaTradersWeb.Endpoint,
+config :my_app, MyAppWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "yCPPOagLj36KJo932mnFlMTmTUznfVcM9Lburhp6DOZN0d1ZcpM6+/rOHRo/8fK7",
-  render_errors: [view: SeaTradersWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: SeaTraders.PubSub,
+  render_errors: [view: MyAppWeb.ErrorView, accepts: ~w(html json)],
+  pubsub: [name: MyApp.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
@@ -28,12 +28,12 @@ import_config "#{Mix.env}.exs"
 
 # %% Coherence Configuration %%
 config :coherence,
-  user_schema: SeaTraders.Coherence.User,
-  repo: SeaTraders.Repo,
-  module: SeaTraders,
-  web_module: SeaTradersWeb,
-  router: SeaTradersWeb.Router,
-  messages_backend: SeaTradersWeb.Coherence.Messages,
+  user_schema: MyApp.Coherence.User,
+  repo: MyApp.Repo,
+  module: MyApp,
+  web_module: MyAppWeb,
+  router: MyAppWeb.Router,
+  messages_backend: MyAppWeb.Coherence.Messages,
   logged_out_url: "/",
   registration_permitted_attributes: ["email","name","password","current_password","password_confirmation"],
   invitation_permitted_attributes: ["name","email"],

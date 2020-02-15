@@ -1,4 +1,4 @@
-defmodule SeaTraders.DataCase do
+defmodule MyApp.DataCase do
   @moduledoc """
   This module defines the setup for tests requiring
   access to the application's data layer.
@@ -16,20 +16,20 @@ defmodule SeaTraders.DataCase do
 
   using do
     quote do
-      alias SeaTraders.Repo
+      alias MyApp.Repo
 
       import Ecto
       import Ecto.Changeset
       import Ecto.Query
-      import SeaTraders.DataCase
+      import MyApp.DataCase
     end
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(SeaTraders.Repo)
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(MyApp.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(SeaTraders.Repo, {:shared, self()})
+      Ecto.Adapters.SQL.Sandbox.mode(MyApp.Repo, {:shared, self()})
     end
 
     :ok

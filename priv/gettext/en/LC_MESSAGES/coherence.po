@@ -12,531 +12,531 @@ msgstr ""
 "Plural-Forms: nplurals=2\n"
 
 #, elixir-format
-#: lib/sea_traders_web/emails/coherence/user_email.ex:27
+#: lib/my_app_web/emails/coherence/user_email.ex:27
 msgid "%{site_name} - Confirm your new account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/emails/coherence/user_email.ex:36
+#: lib/my_app_web/emails/coherence/user_email.ex:36
 msgid "%{site_name} - Invitation to create a new account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/emails/coherence/user_email.ex:18
+#: lib/my_app_web/emails/coherence/user_email.ex:18
 msgid "%{site_name} - Reset password instructions"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/emails/coherence/user_email.ex:45
+#: lib/my_app_web/emails/coherence/user_email.ex:45
 msgid "%{site_name} - Unlock Instructions"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:24
+#: lib/my_app_web/coherence_messages.ex:24
 msgid "Account already confirmed."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:27
+#: lib/my_app_web/coherence_messages.ex:27
 msgid "Account created successfully."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:78
+#: lib/my_app_web/coherence_messages.ex:78
 msgid "Account is inactive!"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:25
+#: lib/my_app_web/coherence_messages.ex:25
 msgid "Account is not locked."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:26
+#: lib/my_app_web/coherence_messages.ex:26
 msgid "Account updated successfully."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:30
+#: lib/my_app_web/coherence_messages.ex:30
 msgid "Already logged in."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/show.html.eex:25
+#: lib/my_app_web/templates/coherence/registration/show.html.eex:25
 msgid "Are you sure?"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:32
+#: lib/my_app_web/coherence_messages.ex:32
 msgid "Can't find that token"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/confirmation/new.html.eex:15
-#: lib/sea_traders_web/templates/coherence/invitation/edit.html.eex:47
-#: lib/sea_traders_web/templates/coherence/invitation/new.html.eex:21
-#: lib/sea_traders_web/templates/coherence/password/edit.html.eex:23
-#: lib/sea_traders_web/templates/coherence/password/new.html.eex:15
-#: lib/sea_traders_web/templates/coherence/registration/form.html.eex:51
-#: lib/sea_traders_web/templates/coherence/session/new.html.eex:28
-#: lib/sea_traders_web/templates/coherence/unlock/new.html.eex:19
+#: lib/my_app_web/templates/coherence/confirmation/new.html.eex:15
+#: lib/my_app_web/templates/coherence/invitation/edit.html.eex:47
+#: lib/my_app_web/templates/coherence/invitation/new.html.eex:21
+#: lib/my_app_web/templates/coherence/password/edit.html.eex:23
+#: lib/my_app_web/templates/coherence/password/new.html.eex:15
+#: lib/my_app_web/templates/coherence/registration/form.html.eex:51
+#: lib/my_app_web/templates/coherence/session/new.html.eex:28
+#: lib/my_app_web/templates/coherence/unlock/new.html.eex:19
 msgid "Cancel"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/password.html.eex:7
+#: lib/my_app_web/templates/coherence/email/password.html.eex:7
 msgid "Change my password"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/confirmation.html.eex:7
+#: lib/my_app_web/templates/coherence/email/confirmation.html.eex:7
 msgid "Confirm my Account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:33
+#: lib/my_app_web/coherence_messages.ex:33
 msgid "Confirmation email sent."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:34
+#: lib/my_app_web/coherence_messages.ex:34
 msgid "Confirmation token expired."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:35
+#: lib/my_app_web/coherence_messages.ex:35
 msgid "Could not find that email address"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/invitation/edit.html.eex:46
+#: lib/my_app_web/templates/coherence/invitation/edit.html.eex:46
 msgid "Create"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/password/edit.html.eex:3
+#: lib/my_app_web/templates/coherence/password/edit.html.eex:3
 msgid "Create a New Password"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/invitation.html.eex:7
+#: lib/my_app_web/templates/coherence/email/invitation.html.eex:7
 msgid "Create my Account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/show.html.eex:22
+#: lib/my_app_web/templates/coherence/registration/show.html.eex:22
 msgid "Delete"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/show.html.eex:21
+#: lib/my_app_web/templates/coherence/registration/show.html.eex:21
 msgid "Edit"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/edit.html.eex:1
+#: lib/my_app_web/templates/coherence/registration/edit.html.eex:1
 msgid "Edit Account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/confirmation/new.html.eex:8
-#: lib/sea_traders_web/templates/coherence/invitation/edit.html.eex:14
-#: lib/sea_traders_web/templates/coherence/invitation/edit.html.eex:28
-#: lib/sea_traders_web/templates/coherence/invitation/new.html.eex:14
-#: lib/sea_traders_web/templates/coherence/unlock/new.html.eex:6
+#: lib/my_app_web/templates/coherence/confirmation/new.html.eex:8
+#: lib/my_app_web/templates/coherence/invitation/edit.html.eex:14
+#: lib/my_app_web/templates/coherence/invitation/edit.html.eex:28
+#: lib/my_app_web/templates/coherence/invitation/new.html.eex:14
+#: lib/my_app_web/templates/coherence/unlock/new.html.eex:6
 msgid "Email"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/show.html.eex:15
+#: lib/my_app_web/templates/coherence/registration/show.html.eex:15
 msgid "Email:"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:36
-#: lib/sea_traders_web/views/coherence/coherence_view_helpers.ex:22
+#: lib/my_app_web/coherence_messages.ex:36
+#: lib/my_app_web/views/coherence/coherence_view_helpers.ex:22
 msgid "Forgot your password?"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:37
+#: lib/my_app_web/coherence_messages.ex:37
 msgid "HTTP Authentication Required"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/confirmation.html.eex:2
-#: lib/sea_traders_web/templates/coherence/email/invitation.html.eex:2
-#: lib/sea_traders_web/templates/coherence/email/password.html.eex:2
-#: lib/sea_traders_web/templates/coherence/email/unlock.html.eex:2
+#: lib/my_app_web/templates/coherence/email/confirmation.html.eex:2
+#: lib/my_app_web/templates/coherence/email/invitation.html.eex:2
+#: lib/my_app_web/templates/coherence/email/password.html.eex:2
+#: lib/my_app_web/templates/coherence/email/unlock.html.eex:2
 msgid "Hello %{name}!"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/password.html.eex:10
+#: lib/my_app_web/templates/coherence/email/password.html.eex:10
 msgid "If you didn't request this, please ignore this email."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:38
+#: lib/my_app_web/coherence_messages.ex:38
 msgid "Incorrect %{login_field} or password."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:74
+#: lib/my_app_web/coherence_messages.ex:74
 msgid "Invalid %{user_token} error: %{error}"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:40
+#: lib/my_app_web/coherence_messages.ex:40
 msgid "Invalid Invitation. Please contact the site administrator."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:41
+#: lib/my_app_web/coherence_messages.ex:41
 msgid "Invalid Request."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:42
+#: lib/my_app_web/coherence_messages.ex:42
 msgid "Invalid confirmation token."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:43
+#: lib/my_app_web/coherence_messages.ex:43
 msgid "Invalid email or password."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:44
+#: lib/my_app_web/coherence_messages.ex:44
 msgid "Invalid invitation token."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:45
+#: lib/my_app_web/coherence_messages.ex:45
 msgid "Invalid reset token."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:46
+#: lib/my_app_web/coherence_messages.ex:46
 msgid "Invalid unlock token."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:47
+#: lib/my_app_web/coherence_messages.ex:47
 msgid "Invitation already sent."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:48
+#: lib/my_app_web/coherence_messages.ex:48
 msgid "Invitation sent."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:49
-#: lib/sea_traders_web/views/coherence/coherence_view_helpers.ex:25
+#: lib/my_app_web/coherence_messages.ex:49
+#: lib/my_app_web/views/coherence/coherence_view_helpers.ex:25
 msgid "Invite Someone"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:77
+#: lib/my_app_web/coherence_messages.ex:77
 msgid "Mailer configuration required!"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:50
+#: lib/my_app_web/coherence_messages.ex:50
 msgid "Maximum Login attempts exceeded. Your account has been locked."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/invitation/new.html.eex:8
+#: lib/my_app_web/templates/coherence/invitation/new.html.eex:8
 msgid "Name"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/show.html.eex:4
+#: lib/my_app_web/templates/coherence/registration/show.html.eex:4
 msgid "Name:"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:51
-#: lib/sea_traders_web/views/coherence/coherence_view_helpers.ex:24
+#: lib/my_app_web/coherence_messages.ex:51
+#: lib/my_app_web/views/coherence/coherence_view_helpers.ex:24
 msgid "Need An Account?"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/invitation/edit.html.eex:7
-#: lib/sea_traders_web/templates/coherence/invitation/new.html.eex:4
-#: lib/sea_traders_web/templates/coherence/registration/form.html.eex:5
+#: lib/my_app_web/templates/coherence/invitation/edit.html.eex:7
+#: lib/my_app_web/templates/coherence/invitation/new.html.eex:4
+#: lib/my_app_web/templates/coherence/registration/form.html.eex:5
 msgid "Oops, something went wrong! Please check the errors below."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/invitation/edit.html.eex:34
-#: lib/sea_traders_web/templates/coherence/password/edit.html.eex:10
-#: lib/sea_traders_web/templates/coherence/session/new.html.eex:13
-#: lib/sea_traders_web/templates/coherence/unlock/new.html.eex:12
+#: lib/my_app_web/templates/coherence/invitation/edit.html.eex:34
+#: lib/my_app_web/templates/coherence/password/edit.html.eex:10
+#: lib/my_app_web/templates/coherence/session/new.html.eex:13
+#: lib/my_app_web/templates/coherence/unlock/new.html.eex:12
 msgid "Password"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/invitation/edit.html.eex:40
-#: lib/sea_traders_web/templates/coherence/password/edit.html.eex:16
+#: lib/my_app_web/templates/coherence/invitation/edit.html.eex:40
+#: lib/my_app_web/templates/coherence/password/edit.html.eex:16
 msgid "Password Confirmation"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:53
+#: lib/my_app_web/coherence_messages.ex:53
 msgid "Password reset token expired."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:54
+#: lib/my_app_web/coherence_messages.ex:54
 msgid "Password updated successfully."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:55
+#: lib/my_app_web/coherence_messages.ex:55
 msgid "Problem confirming user account. Please contact the system administrator."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/new.html.eex:4
+#: lib/my_app_web/templates/coherence/registration/new.html.eex:4
 msgid "Register"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/new.html.eex:1
+#: lib/my_app_web/templates/coherence/registration/new.html.eex:1
 msgid "Register Account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:56
+#: lib/my_app_web/coherence_messages.ex:56
 msgid "Registration created successfully."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/session/new.html.eex:21
+#: lib/my_app_web/templates/coherence/session/new.html.eex:21
 msgid "Remember Me?"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/confirmation/new.html.eex:3
+#: lib/my_app_web/templates/coherence/confirmation/new.html.eex:3
 msgid "Resend Confirmation Instructions"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/confirmation/new.html.eex:14
+#: lib/my_app_web/templates/coherence/confirmation/new.html.eex:14
 msgid "Resend Email"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/invitation/new.html.eex:23
+#: lib/my_app_web/templates/coherence/invitation/new.html.eex:23
 msgid "Resend Invitation!"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:58
-#: lib/sea_traders_web/views/coherence/coherence_view_helpers.ex:26
+#: lib/my_app_web/coherence_messages.ex:58
+#: lib/my_app_web/views/coherence/coherence_view_helpers.ex:26
 msgid "Resend confirmation email"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/password/new.html.eex:14
+#: lib/my_app_web/templates/coherence/password/new.html.eex:14
 msgid "Reset Password"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:59
+#: lib/my_app_web/coherence_messages.ex:59
 msgid "Reset email sent. Check your email for a reset link."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:60
+#: lib/my_app_web/coherence_messages.ex:60
 msgid "Restricted Area"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/unlock/new.html.eex:18
+#: lib/my_app_web/templates/coherence/unlock/new.html.eex:18
 msgid "Send Instructions"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/invitation/new.html.eex:20
+#: lib/my_app_web/templates/coherence/invitation/new.html.eex:20
 msgid "Send Invitation"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:61
-#: lib/sea_traders_web/views/coherence/coherence_view_helpers.ex:23
+#: lib/my_app_web/coherence_messages.ex:61
+#: lib/my_app_web/views/coherence/coherence_view_helpers.ex:23
 msgid "Send an unlock email"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/password/new.html.eex:3
+#: lib/my_app_web/templates/coherence/password/new.html.eex:3
 msgid "Send reset password link"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/show.html.eex:1
+#: lib/my_app_web/templates/coherence/registration/show.html.eex:1
 msgid "Show account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:62
-#: lib/sea_traders_web/templates/coherence/session/new.html.eex:27
-#: lib/sea_traders_web/views/coherence/coherence_view_helpers.ex:27
+#: lib/my_app_web/coherence_messages.ex:62
+#: lib/my_app_web/templates/coherence/session/new.html.eex:27
+#: lib/my_app_web/views/coherence/coherence_view_helpers.ex:27
 msgid "Sign In"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:63
-#: lib/sea_traders_web/views/coherence/coherence_view_helpers.ex:28
+#: lib/my_app_web/coherence_messages.ex:63
+#: lib/my_app_web/views/coherence/coherence_view_helpers.ex:28
 msgid "Sign Out"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:64
+#: lib/my_app_web/coherence_messages.ex:64
 msgid "Signed in successfully."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/password.html.eex:4
+#: lib/my_app_web/templates/coherence/email/password.html.eex:4
 msgid "Someone has requested a link to change your password, and you can do this through the link below."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/confirmation.html.eex:9
-#: lib/sea_traders_web/templates/coherence/email/invitation.html.eex:9
-#: lib/sea_traders_web/templates/coherence/email/unlock.html.eex:9
+#: lib/my_app_web/templates/coherence/email/confirmation.html.eex:9
+#: lib/my_app_web/templates/coherence/email/invitation.html.eex:9
+#: lib/my_app_web/templates/coherence/email/unlock.html.eex:9
 msgid "Thank you!"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:65
+#: lib/my_app_web/coherence_messages.ex:65
 msgid "Too many failed login attempts. Account has been locked."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:66
+#: lib/my_app_web/coherence_messages.ex:66
 msgid "Unauthorized IP Address"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:67
+#: lib/my_app_web/coherence_messages.ex:67
 msgid "Unlock Instructions sent."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/unlock.html.eex:7
+#: lib/my_app_web/templates/coherence/email/unlock.html.eex:7
 msgid "Unlock my Account"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/edit.html.eex:4
+#: lib/my_app_web/templates/coherence/registration/edit.html.eex:4
 msgid "Update"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/password/edit.html.eex:22
+#: lib/my_app_web/templates/coherence/password/edit.html.eex:22
 msgid "Update Password"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:68
+#: lib/my_app_web/coherence_messages.ex:68
 msgid "User account confirmed successfully."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:69
+#: lib/my_app_web/coherence_messages.ex:69
 msgid "User already has an account!"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:76
+#: lib/my_app_web/coherence_messages.ex:76
 msgid "You are using an invalid security token for this site! This security\nviolation has been logged.\n"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/invitation.html.eex:4
+#: lib/my_app_web/templates/coherence/email/invitation.html.eex:4
 msgid "You have been invited to create an Account. Use the link below to create an account."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:70
+#: lib/my_app_web/coherence_messages.ex:70
 msgid "You must confirm your account before you can login."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/unlock.html.eex:4
+#: lib/my_app_web/templates/coherence/email/unlock.html.eex:4
 msgid "You requested unlock instructions for your locked account. Please click the link below to unlock your account."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:71
+#: lib/my_app_web/coherence_messages.ex:71
 msgid "Your account has been unlocked"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:72
+#: lib/my_app_web/coherence_messages.ex:72
 msgid "Your account is not locked."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/confirmation.html.eex:4
+#: lib/my_app_web/templates/coherence/email/confirmation.html.eex:4
 msgid "Your new account is almost ready. Click the link below to confirm you new account."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/email/password.html.eex:13
+#: lib/my_app_web/templates/coherence/email/password.html.eex:13
 msgid "Your password won't change until you access the link above and create a new one."
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:28
+#: lib/my_app_web/coherence_messages.ex:28
 msgid "already confirmed"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:29
+#: lib/my_app_web/coherence_messages.ex:29
 msgid "already locked"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:31
+#: lib/my_app_web/coherence_messages.ex:31
 msgid "can't be blank"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/form.html.eex:24
+#: lib/my_app_web/templates/coherence/registration/form.html.eex:24
 msgid "email"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:39
+#: lib/my_app_web/coherence_messages.ex:39
 msgid "invalid current password"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/form.html.eex:10
+#: lib/my_app_web/templates/coherence/registration/form.html.eex:10
 msgid "name"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:52
+#: lib/my_app_web/coherence_messages.ex:52
 msgid "not locked"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/form.html.eex:38
+#: lib/my_app_web/templates/coherence/registration/form.html.eex:38
 msgid "password"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/templates/coherence/registration/form.html.eex:44
+#: lib/my_app_web/templates/coherence/registration/form.html.eex:44
 msgid "password confirmation"
 msgstr ""
 
 #, elixir-format
-#: lib/sea_traders_web/coherence_messages.ex:57
+#: lib/my_app_web/coherence_messages.ex:57
 msgid "required"
 msgstr ""

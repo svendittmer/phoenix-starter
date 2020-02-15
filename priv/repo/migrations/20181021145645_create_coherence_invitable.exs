@@ -1,4 +1,4 @@
-defmodule SeaTraders.Repo.Migrations.CreateCoherenceInvitable do
+defmodule MyApp.Repo.Migrations.CreateCoherenceInvitable do
   use Ecto.Migration
   def change do
     create table(:invitations) do

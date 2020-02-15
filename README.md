@@ -1,4 +1,4 @@
-# SeaTraders
+# MyApp
 
 To start your Phoenix server:
 
